@@ -1,4 +1,7 @@
 function Adduser(){
+	function gender() {
+		alert('gender');
+	}
     return (
         <div class="content container-fluid">
 			{/* <!-- Page Header --> */}
@@ -37,11 +40,11 @@ function Adduser(){
                                         <div class="form-group row">
 											<label class="col-lg-2 col-form-label">Gender</label>
 											<div class="col-lg-4 ml-5">
-                                                <input type="radio" name="male" class="form-check-input" />
+                                                <input type="radio" name="Gender" onClick={gender} value={'Male'} class="form-check-input" />
                                                 <label>Male</label>
 											</div>
                                             <div class="col-lg-4">
-                                                <input type="radio" name="female" class="form-check-input" />
+                                                <input type="radio" name="Gender" onClick={gender} value={'Female'} class="form-check-input" />
                                                 <label>Female</label>
                                             </div>
 										</div>

@@ -1,4 +1,4 @@
-function Routes() {
+function Routeroads() {
     return (
 		<>
 			<div class="content container-fluid">				
@@ -229,4 +229,4 @@ function Routes() {
 }
 
 
-export default Routes;
+export default Routeroads;
